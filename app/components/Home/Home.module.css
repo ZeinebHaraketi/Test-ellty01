@@ -1,0 +1,88 @@
+.wrapper {
+  box-sizing: border-box;
+  position: relative;
+  width: 410px;
+  height: 520px;
+  border: 1px dashed #9747FF;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 15px 8px 22px;
+  gap: 5px;
+  position: absolute;
+  width: 370px;
+  height: 42px;
+  left: 20px;
+  background: #fff;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.label {
+  width: 64px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #1F2128;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 6px;
+  border: 1px solid #BDBDBD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox.checked {
+  background: #2469F6;
+  border: 1px solid #2469F6;
+}
+
+.checkbox svg {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+
+.row.variant2 .checkbox {
+  border: 1px solid #BDBDBD;
+}
+.row.variant3 .checkbox {
+  border: 3px solid #2469F6;
+  opacity: 0.1;
+}
+.row.variant4 .checkbox {
+  background: #5087F8;
+  border: 1px solid #5087F8;
+}
+.row.variant5 .checkbox {
+  background: #2469F6;
+  border: 1px solid #2469F6;
+}
+.row.variant6 .checkbox {
+  background: #5087F8;
+  border: 1px solid #5087F8;
+}
+.row.variant7 .checkbox {
+  background: #2469F6;
+  border: 3px solid #2469F6;
+  opacity: 0.1;
+}
+.row.variant8 .checkbox {
+  border: 1px solid #BDBDBD;
+}
